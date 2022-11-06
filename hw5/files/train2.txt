@@ -1,0 +1,7 @@
+6
+CSCI-104 cote aaron coding programming CS computers
+BISC-220 biology herrera albert bio cells physiology microbiology science
+WRIT-150 writing editing leah pate reasoning evaluate essay
+EE-109 electrical engineering allan weber redekopp breadboard wires arduino bits
+BISC-120 biology evolution phylogenetic trees macrobiology bio science
+MUSIC-102 spencer scott music general ed essay writing listening global

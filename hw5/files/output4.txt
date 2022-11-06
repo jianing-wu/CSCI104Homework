@@ -1,0 +1,7 @@
+strawberry: 0.983722
+lemon: 0.999685
+coconut: 0.999953
+orange: 0.999996
+blueberry: 1.000000
+lime: 0.999990
+banana: 0.999999

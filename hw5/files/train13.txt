@@ -1,0 +1,12 @@
+11
+A 1 x
+A 2 x
+B 2 x 
+C 3 x
+D 4 x
+E 5 x
+F 6 y
+G 7 y
+H 8 y
+I 9 y
+J 10 y

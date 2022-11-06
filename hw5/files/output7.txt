@@ -1,0 +1,10 @@
+Renee: 1.000000
+Jennifer: 0.999998
+Thenia: 0.999798
+Shirley: 0.999993
+Adriana: 1.000000
+Reynaldo: 0.999993
+Winston: 0.993780
+Lily: 1.000000
+Tze: 1.000000
+Brent: 1.000000

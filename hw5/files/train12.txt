@@ -1,0 +1,21 @@
+20
+1 a c b d 
+1 f s d z 
+2 f o k l
+2 s q e 
+3 i 
+4 u y e i j k m n
+5 o v c d x z
+6 p o l e w g 
+7 u s o i s 
+8 i k s d c m 
+9 d s 
+10 p x t 
+11 u w q c 
+12 v n b s d 
+13 j l s 
+14 r t s o p 
+15 w m e i s k l p 
+16 a u o c n m e s f z w 
+17 i o w y t
+18 p s w l 
