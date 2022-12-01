@@ -218,11 +218,12 @@ public:
         bool operator!=(const iterator& rhs) const;
 
         iterator& operator++();
+        Node<Key, Value> *current_;
 
     protected:
         friend class BinarySearchTree<Key, Value>;
         iterator(Node<Key,Value>* ptr);
-        Node<Key, Value> *current_;
+        // Node<Key, Value> *current_;
     
     private:
         Node<Key, Value>* successor(Node<Key, Value>* current); //in-order sequencing helper
@@ -561,21 +562,28 @@ void BinarySearchTree<Key, Value>::remove(const Key& key)
     Node<Key, Value>* parent = n->getParent();
     Node<Key, Value>* child = n->getLeft();
 
-    if(child == NULL){
+    if (child == NULL)
+    {
         child = n->getRight();
     }
 
-    if(child != NULL){
+    if (child != NULL)
+    {
         child->setParent(parent);
     }
-    if (parent != NULL) {
-        if(parent->getLeft() == n){
+    if (parent != NULL)
+    {
+        if (parent->getLeft() == n)
+        {
             parent->setLeft(child);
         }
-        else{
+        else
+        {
             parent->setRight(child);
         }
-    } else {
+    }
+    else
+    {
         root_ = child;
     }
     delete n;
@@ -640,8 +648,12 @@ void BinarySearchTree<Key, Value>::clearHelper(Node<Key, Value>* root)
     }
     clearHelper(root->getLeft());
     clearHelper(root->getRight());
+    
+    if (root_ == root) {
+        root_ = NULL;
+    }
+
     delete root;
-    // root = NULL;
 }
 
 
@@ -718,7 +730,6 @@ bool BinarySearchTree<Key, Value>::isBalancedHelper(Node<Key, Value>* curr, int&
     }
     return false;
 }
-    
 
 
 /**

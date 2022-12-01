@@ -1,2 +1,0 @@
-Total Runtime: 0.100902
-Occurrences:
